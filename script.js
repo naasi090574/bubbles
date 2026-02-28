@@ -31,8 +31,8 @@ function createBubble(src) {
   let x = Math.random() * (window.innerWidth - size);
   let y = Math.random() * (window.innerHeight - size);
 
-  let vx = (Math.random() * 1.2 + 0.3) * (Math.random() < 0.5 ? -1 : 1);
-  let vy = (Math.random() * 1.2 + 0.3) * (Math.random() < 0.5 ? -1 : 1);
+  let vx = (Math.random() * 0.6 + 0.15) * (Math.random() < 0.5 ? -1 : 1);
+  let vy = (Math.random() * 0.6 + 0.15) * (Math.random() < 0.5 ? -1 : 1);
 
   bubble.style.left = x + "px";
   bubble.style.top = y + "px";
